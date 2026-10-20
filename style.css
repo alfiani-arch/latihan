@@ -4,22 +4,33 @@ body {
   color: #191970; /* warna teks utama (Biru Gelap) */
 }
 
-  .kartu-profil {
-    width: 300px;
-    margin: 50 px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-    padding: 20px;
-    background-color: white:
-    border-radius: 15px; /*membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1); /*Efek bayangan */
-}
-|
-
-.kartu-profil img (
-    width: 150px;
-    border-radius: 50%; /*Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-}
 .kartu-profil {
-    /* ... (kode dari slide sebelumnya) ... */
-    text-align: center; /*Menengahkan semua teks di dalam kartu */
+  width: 300px;
+  margin: 50px auto; /* Perbaikan: 50px tanpa spasi */
+  padding: 20px;
+  background-color: white; /* Perbaikan: diakhiri titik koma (;) */
+  border-radius: 15px; /* membuat sudut menjadi melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Perbaikan: nilai rgba yang benar */
+  text-align: center; /* Menengahkan semua teks di dalam kartu */
+}
+
+.kartu-profil img { /* Perbaikan: menggunakan kurung kurawal {} */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+}
+
+.kartu-profil a {
+  color: #191970;
+  text-decoration: underline;
+}
+
+.kartu-profil button {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #191970;
+  background-color: #f0f0f0;
 }
 
